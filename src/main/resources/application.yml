@@ -1,0 +1,18 @@
+
+cn:
+  wantedonline: this is yml test
+logging:
+  level:
+    com.example.springbootdemo: trace
+server:
+  shutdown: graceful
+  port: 9090
+spring:
+  mvc:
+    static-path-pattern: static/**
+    format:
+      date: yyyy-MM-dd
+  thymeleaf:
+    cache: false
+  messages:
+    basename: i18n/index
