@@ -16,3 +16,16 @@ spring:
     cache: false
   messages:
     basename: i18n/index
+  redis:
+    database: 0
+    host: 81.68.184.131
+    port: 6379
+    lettuce:
+      pool:
+        min-idle: 1
+        max-idle: 5
+        max-active: 5
+        max-wait: 1ms
+      shutdown-timeout: 200ms
+  cache:
+    cache-names: my-cache
