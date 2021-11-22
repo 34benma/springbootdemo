@@ -29,3 +29,13 @@ spring:
       shutdown-timeout: 200ms
   cache:
     cache-names: my-cache
+  datasource:
+    url: jdbc:mysql://81.68.184.131:3306/spring-demo-test?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC&useSSL=true
+    username: root
+    password: Rfv123!@#
+    type: com.alibaba.druid.pool.DruidDataSource
+
+
+wantedonline:
+  name: demoApplication
+  msg: hello,auto config
